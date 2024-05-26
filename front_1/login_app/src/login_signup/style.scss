@@ -1,0 +1,75 @@
+.App{
+       .stylenav{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+       }
+        .auth{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: rgb(49, 153, 118);}
+
+        form{
+            border: solid;
+            padding: 15px;
+           display: flex;
+           flex-direction: column;
+           width: 100px;
+           gap: 20px;
+           padding: auto;
+
+        
+         input{
+        border:none;
+        padding: 10px;
+        border-bottom: 100px solid color(rgb(238, 17, 17));
+         }
+         button{
+            cursor: pointer;
+         }
+        }
+    .Inscri{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: rgb(39, 204, 149);}
+
+        form{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        gap: 15px;
+        
+         input{
+        border:none;
+        border-bottom: 10px solid color(rgb(238, 17, 17));
+         }
+         button{
+            cursor: pointer;
+         }
+        }
+        .posts{
+            display:flex;
+            flex-direction: column;
+            gap:150px;
+            .post{
+                display: flex;
+                gap:100px;
+            }
+            &:nth-child(2n+1){
+                flex-direction: row-reverse;
+            }
+            button{
+                background-color: white;
+                cursor: pointer;
+            }
+        }    
+    }
+
